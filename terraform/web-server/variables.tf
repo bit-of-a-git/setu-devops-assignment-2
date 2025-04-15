@@ -144,6 +144,7 @@ variable "target_group_name" {
 variable "user_data" {
   description = "User data script for the instance"
   type        = string
+  default     = null
 }
 
 variable "vpc_id" {

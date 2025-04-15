@@ -143,7 +143,6 @@ variable "default_project_tag" {
 variable "key_name" {
   description = "Name of the key pair to use for SSH access to the instance"
   type        = string
-  default     = "temp-key"
 }
 
 variable "private_subnet_cidr_1" {
