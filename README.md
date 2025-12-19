@@ -6,7 +6,7 @@ This parent directory contains my overall work for the SETU DevOps Assignment 2,
 
 This repository is organized into the following subfolders:
 
-- `/packer`: This folder contains Packer templates and scripts used for step 1 of the assignment (creating master instances/AMIs for a web application). It additonally contains a configuration which may be used to install a MongoDB database on EC2.
+- `/packer`: This folder contains Packer templates and scripts used for step 1 of the assignment (creating master instances/AMIs for a web application). It additionally contains a configuration which may be used to install a MongoDB database on EC2.
 - `/remote-state`: Following best practice, this folder contains a Terraform configuration for setting up remote state management using AWS S3 and DynamoDB. This is used to store the Terraform state file securely and enable collaboration.
 - `/terraform`: This folder contains Terraform configurations for setting up the infrastructure required for the web application, including VPC, security groups, load balancers, auto-scaling groups, and more. It also includes configurations for setting up CloudWatch alarms and scaling policies.
 
